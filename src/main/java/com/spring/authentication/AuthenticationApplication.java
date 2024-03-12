@@ -1,13 +1,14 @@
-package com.spring.timeSheetFides;
+package com.spring.authentication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TimesheetFidesApplication {
+public class AuthenticationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TimesheetFidesApplication.class, args);
+		SpringApplication.run(AuthenticationApplication.class, args);
+		System.out.println("Main runner ok..");
 	}
 
 }
